@@ -5,8 +5,8 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://frippery.org/files/busybox/busybox-w64-FRP-5301-gda71f7c57.exe#/busybox.exe",
-            "hash": "6d2dfd1c1412c3550a89071a1b36a6f6073844320e687343d1dfc72719ecb8d9"
+            "url": "https://frippery.org/files/busybox/busybox-w64u-FRP-5301-gda71f7c57.exe#/busybox.exe",
+            "hash": "94c2a1f5ebcb5f1e5ca592fd306aac92da1b50654a09320c8c47da68b5098b85"
         },
         "32bit": {
             "url": "https://frippery.org/files/busybox/busybox-w32-FRP-5301-gda71f7c57.exe#/busybox.exe",
@@ -25,12 +25,12 @@
     ],
     "checkver": {
         "url": "https://frippery.org/files/busybox/?C=M;O=D",
-        "regex": ">busybox-w32-FRP-([\\w-]+)\\."
+        "regex": ">busybox-w64u-FRP-([\\w-]+)\\."
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://frippery.org/files/busybox/busybox-w64-FRP-$version.exe#/busybox.exe"
+                "url": "https://frippery.org/files/busybox/busybox-w64u-FRP-$version.exe#/busybox.exe"
             },
             "32bit": {
                 "url": "https://frippery.org/files/busybox/busybox-w32-FRP-$version.exe#/busybox.exe"
